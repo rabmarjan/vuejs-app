@@ -3,8 +3,6 @@
 > A Vue.js project
 
 ## Build Setup
-# For backend clone from thid repository
-https://github.com/rabmarjan/InterconnectionProject.git
 
 ``` bash
 # install dependencies
@@ -24,6 +22,14 @@ npm run e2e
 
 # run all tests
 npm test
+
+# For backend clone from thid repository
+https://github.com/rabmarjan/InterconnectionProject.git
+
+# Run following command
+python manage.py runserver
+
+Note: Read the README.md file of InterconnectionProject
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
