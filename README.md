@@ -23,11 +23,14 @@ npm run e2e
 # run all tests
 npm test
 
-# For backend clone from thid repository
+# For backend clone from this repository
 https://github.com/rabmarjan/InterconnectionProject.git
 
 # Run following command
-python manage.py runserver
+pip install -r requirements.txt
+pipenv install
+pipenv shell
+pipenv run python manage.py runserver
 
 Note: Read the README.md file of InterconnectionProject
 ```
